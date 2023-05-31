@@ -14,7 +14,7 @@ Visite o site para download do ChromeDriver
 
 `https://sites.google.com/a/chromium.org/chromedriver/downloads`
 
-Unzip chromedriver_win32.zip para pasta Script da instalação do Python
+Unzip chromedriver_win32.zip para pasta Script da instalaï¿½ï¿½o do Python
 
 Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
@@ -24,7 +24,7 @@ Visite o site para download do GeckoDriver
 
 `https://github.com/mozilla/geckodriver/releases`
 
-Unzip geckodriver-v0.33.0-win-aarch64.zip para pasta Script da instalação do Python
+Unzip geckodriver-v0.33.0-win-aarch64.zip para pasta Script da instalaï¿½ï¿½o do Python
 
 Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
@@ -44,3 +44,8 @@ Executar o teste usando Behavex
 ## Evidencia de sucesso
 
 ![Screenshot](./results/success_behavex.png)
+
+## Report
+
+NÃ£o Ã© possivel buscar por uma data
+NÃ£o Ã© possivel buscar por um autor
