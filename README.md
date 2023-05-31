@@ -2,11 +2,13 @@
 
 ## Requirements
 
-Pyhon 3.11
+- Pyhon 3.11
 
-Behave
+- Behave
 
-Selenium
+- Selenium
+
+- Behavex
 
 ### ChromeDriver
 
@@ -14,7 +16,7 @@ Visite o site para download do ChromeDriver
 
 `https://sites.google.com/a/chromium.org/chromedriver/downloads`
 
-Unzip chromedriver_win32.zip para pasta Script da instala��o do Python
+Unzip chromedriver_win32.zip para pasta Script da instalação do Python
 
 Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
@@ -24,7 +26,7 @@ Visite o site para download do GeckoDriver
 
 `https://github.com/mozilla/geckodriver/releases`
 
-Unzip geckodriver-v0.33.0-win-aarch64.zip para pasta Script da instala��o do Python
+Unzip geckodriver-v0.33.0-win-aarch64.zip para pasta Script da instalação do Python
 
 Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
@@ -47,5 +49,6 @@ Executar o teste usando Behavex
 
 ## Report
 
-Não é possivel buscar por uma data
-Não é possivel buscar por um autor
+- Não é possivel buscar por uma data, apenas se entrar pela URL exemplo: https://blogdoagi.com.br/2023/02/27/
+
+- Não é possivel buscar por um autor, apenas se entrar pela URL exemplo: https://blogdoagi.com.br/author/conteudoagi/
