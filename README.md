@@ -16,7 +16,7 @@ Visite o site para download do ChromeDriver
 
 Unzip chromedriver_win32.zip para pasta Script da instalação do Python
 
-Examplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
+Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
 ### GeckoDriver
 
@@ -26,12 +26,12 @@ Visite o site para download do GeckoDriver
 
 Unzip geckodriver-v0.33.0-win-aarch64.zip para pasta Script da instalação do Python
 
-Examplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
+Exemplo no Windows: `C:\Users\<Your_User>\AppData\Local\Programs\Python\Python311\Scripts`
 
 ## Install requirements
 `pip install -r requirements.txt`
 
-## Execute project
+## Executar o projeto
 
 Entrar na pasta do projeto pelo terminal
 
@@ -41,6 +41,6 @@ Executar o teste
 
 `behave -f html -o results/agi-report.html`
 
-## Evidence of success
+## Evidencia de sucesso
 
 ![Screenshot](./results/success.png)
