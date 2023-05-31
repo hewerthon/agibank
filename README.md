@@ -37,10 +37,10 @@ Entrar na pasta do projeto pelo terminal
 
 `cd agibank`
 
-Executar o teste
+Executar o teste usando Behavex
 
-`behave -f html -o results/agi-report.html`
+`behavex -t high`
 
 ## Evidencia de sucesso
 
-![Screenshot](./results/success.png)
+![Screenshot](./results/success_behavex.png)

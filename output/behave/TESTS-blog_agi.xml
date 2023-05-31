@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite time="6.634365797042847" tests='4' skipped='0'
+name="Blog_Agi" failures='0' errors='0'><testcase time="3.165888786315918" name="Busca_Por_Palavra-Chave" status="passed"
+         classname="Test_Blog_Do_Agi"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @high
+                scenario: Busca por palavra-chave
+                given O usuário acessa o site https://blogdoagi.com.br/ ... passed in 2.181s 
+                when Usuário digita uma palavra-chave na barra de busca e clica no botão de pesquisar ... passed in 0.9661s 
+                then O sistema retorna uma lista de artigos que contêm a palavra-chave pesquisada ... passed in 0.01901s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="1.0347967147827148" name="Busca_Por_Categoria" status="passed"
+         classname="Test_Blog_Do_Agi"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @high
+                scenario: Busca por categoria
+                given O usuário acessa o site https://blogdoagi.com.br/ ... passed in 0.2673s 
+                when Usuário clica em uma categoria específica (ex: Produtos, Serviços, Suas finanças) ... passed in 0.7413s 
+                then O sistema retorna uma lista de artigos relacionados à categoria selecionada ... passed in 0.02628s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="1.4081652164459229" name="Busca_Por_Tags" status="passed"
+         classname="Test_Blog_Do_Agi"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @high
+                scenario: Busca por tags
+                given O usuário acessa o site https://blogdoagi.com.br/ ... passed in 0.3302s 
+                when Usuário clica uma tags (ex: agi, inclusao, desenvolvimento-de-talentos) ... passed in 1.063s 
+                then O sistema retorna uma lista de artigos que contêm a tag ... passed in 0.01516s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase><testcase time="1.025515079498291" name="Busca_Por_Autor" status="passed"
+         classname="Test_Blog_Do_Agi"><system-out>
+            <![CDATA[
+            @scenario.begin
+                @high
+                scenario: Busca por autor
+                given O usuário acessa o site https://blogdoagi.com.br/ ... passed in 0.3109s 
+                when Usuário clica em um autor (ex: CONTEUDOAGI, REDACAOAGI) ... passed in 0.7071s 
+                then O sistema retorna uma lista de artigos escritos pelo autor ... passed in 0.007506s 
+@scenario.end
+            ----------------------------------------------------------------------------------------------------
+            ]]>
+            </system-out>
+        </testcase></testsuite>

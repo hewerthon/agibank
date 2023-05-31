@@ -1,6 +1,5 @@
 from behave import given, when, then
 from selenium.webdriver.common.by import By
-from page_object.page_object import Pesquisar
 
 url = 'https://blogdoagi.com.br/'
 url_tag = 'https://blogdoagi.com.br/tag/agi'

@@ -1,3 +1,4 @@
+@high
 Feature: Test Blog do Agi
 
     Scenario: Busca por palavra-chave
